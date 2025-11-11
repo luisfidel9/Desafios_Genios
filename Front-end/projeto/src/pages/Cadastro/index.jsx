@@ -37,8 +37,8 @@ export default function Register() {
         // Exibe mensagens de erro do backend (ex: usuário já existe)
         const errors = error.response.data;
         const errorMessages = Object.keys(errors)
-                                    .map(key => `${key}: ${errors[key].join(', ')}`)
-                                    .join('\n');
+        .map(key => `${key}: ${errors[key].join(', ')}`)
+        .join('\n');
         alert(`Erro de Validação:\n${errorMessages}`);
       } else {
         alert("Erro inesperado ao tentar cadastrar.");
@@ -52,7 +52,7 @@ export default function Register() {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Usuário"
+          placeholder="Usuário, nome sem espaços"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           required

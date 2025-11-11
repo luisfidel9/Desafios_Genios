@@ -34,7 +34,7 @@ export default function Login() {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Usuário"
+          placeholder="Usuário, nome sem espaços"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           required
