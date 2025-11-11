@@ -1,0 +1,17 @@
+.cadastro {
+   width: 35%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.071);
+}
+
+h1{
+    color:  rgb(70, 70, 255);;
+}

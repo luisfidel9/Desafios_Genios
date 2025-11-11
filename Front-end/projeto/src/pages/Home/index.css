@@ -1,0 +1,31 @@
+.main {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > a {
+    text-decoration: none;
+}
+
+.header > a:hover{
+    background-color: rgb(70, 70, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.delete {
+    padding: 5px;
+    background-color: #dc3545;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
